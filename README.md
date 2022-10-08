@@ -11,8 +11,8 @@
 	alias diff='colordiff'
 	alias grep='grep --color=auto'
 	alias orphans='pacman -Qtdq'
-	alias ydl="youtube-dl"
-	alias ydlx="youtube-dl -x --audio-format mp3"
+	alias ydl="yt-dlp"
+	alias ydlx="yt-dlp -x --audio-format mp3"
 	alias ..='cd ..'
 	alias ...='cd ../../'
 	alias ....='cd ../../../'
@@ -20,4 +20,5 @@
 	alias dl="cd /home/user/Downloads"
 	alias dc="cd /home/user/Documents"
 	alias config="cd /home/user/.config"
+	alias nv = 'nvim'
 
